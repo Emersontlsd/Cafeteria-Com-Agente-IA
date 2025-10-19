@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Cafeteria</title>
+  </head>
+  <body>
+    <!-- Header = Cabeçalho
+           nav = menu de navegação
+           ul = lista
+           li = item da lista  
+           a = link 
+           main = conteudo principal da página
+           section =- seção do site
+           article = para criar um artigo (card)
+           footer = rodapé
+    -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Café Aroma</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-conteudo">
+          <h1>Bem-Vindo ao Café Aroma</h1>
+          <p>Descubra o sabor autêntico do café artesanal</p>
+          <a href="#produtos" class="btn">Conheça nossos cafés</a>
+        </div>
+      </section>
+      <section id="sobre" class="sobre">
+        <div class="container">
+          <h2>Sobre nós</h2>
+          <p>
+            Há mais de 10 anos, o café Aroma traz a melhor experiência em café
+            artesanal. Selecionamos grãos especiais de produtores locais e
+            preparamos cada xícara com dedicação e paixã.
+          </p>
+        </div>
+      </section>
+      <section id="produtos" class="produtos">
+        <div class="container">
+          <h2>Nossos Produtos</h2>
+          <div class="produtos-grid">
+            <article class="produto-card">
+              <div class="produto-icon">☕</div>
+              <h3>Espresso</h3>
+              <p>Café puro e intenso, preparado na pressão perfeita.</p>
+              <span class="preco">R$ 8,00</span>
+            </article>
+            <article class="produto-card">
+              <div class="produto-icon">🥤</div>
+              <h3>Cappuccino</h3>
+              <p>Cremoso e suave, com espuma de leite perfeita.</p>
+              <span class="preco">R$ 12,00</span>
+            </article>
+            <article class="produto-card">
+              <div class="produto-icon">🧊</div>
+              <h3>Café Gelado</h3>
+              <p>Refrescante e saboroso para dias quentes.</p>
+              <span class="preco">R$ 10,00</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="localizacao" class="localizacao">
+        <div class="container">
+          <h2>Onde estamos</h2>
+          <div class="contato-info">
+            <p>Rua do Café, Asa norte - Brasília DF</p>
+            <p>(61) 99999-9999</p>
+            <p>contato@cafearoma.com.br</p>
+          </div>
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.2540094049727!2d-47.897733314202256!3d-15.790554883779992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3bdaa6f8c41b%3A0x62fbf4d13396bfc3!2sTorre%20de%20TV%20de%20Bras%C3%ADlia!5e0!3m2!1spt-PT!2sbr!4v1760910492631!5m2!1spt-PT!2sbr"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>2025 Café Aroma - Todos os direitos reservados.</p>
+    </footer>
+
+    <script
+      async
+      src="https://app.gptmaker.ai/widget/3E8F6FA4756702F1EDE4CE803BDA0EC1/float.js"
+    ></script>
+  </body>
+</html>
