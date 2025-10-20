@@ -38,6 +38,15 @@ header {
     color: #fff;
 }
 
+.logo a {
+    color: #fff;    
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: burlywood;  /* mesma cor do hover dos links da navbar */
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -188,4 +197,29 @@ header {
 
 .mapa iframe {
     display: block;
+}
+
+footer {
+    background-color: #2c1810; /* mesma cor do header para manter identidade */
+    color: #fff;               /* texto branco */
+    text-align: center;        /* centraliza o texto */
+    padding: 1.5rem 0;         /* espaço interno */
+    font-size: 1rem;           /* tamanho da fonte */
+    position: relative;        /* mantém fluxo normal da página */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1); /* sombra suave no topo */
+}
+
+footer p {
+    margin: 0;                 /* remove margin padrão do <p> */
+}
+
+footer a {
+    color: burlywood;          /* caso queira links no footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
