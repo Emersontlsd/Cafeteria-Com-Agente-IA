@@ -6,17 +6,27 @@ Uma página web elegante e responsiva para apresentar a cafeteria **Café Aroma*
 
 ## 🌐 Demonstração
 
-Acesse o projeto localmente em seu navegador após abrir o arquivo `index.html`.
+Acesse o projeto localmente em seu navegador após abrir o arquivo `index.html`.  
+
+OU 
+
+Acesse o link da demonstração: [https://emersontlsd.github.io/Cafeteria-Com-Agente-IA/](https://emersontlsd.github.io/Cafeteria-Com-Agente-IA/)
+
 
 ---
 
 ## 🧩 Estrutura do Projeto
 
 📂 projeto-cafe-aroma
+
 ┣ 📂 assets
-┃ ┗ 📜 style.css
+
+┃     ┗ 📜 style.css
+
 ┣ 📂 images
-┃ ┗ 🖼️ nathan-dumlao-6VhPY27jdps-unsplash.jpg
+
+    ┃ ┗ 🖼️ nathan-dumlao-6VhPY27jdps-unsplash.jpg
+    
 ┗ 📜 index.html
 
 
@@ -53,6 +63,8 @@ A seção principal exibe uma imagem de fundo com sobreposição suave:
     url(images/nathan-dumlao-6VhPY27jdps-unsplash.jpg) center / cover;
 }
 
+📜 Código HTML Principal
+
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -81,6 +93,8 @@ A seção principal exibe uma imagem de fundo com sobreposição suave:
     </footer>
   </body>
 </html>
+
+🎨 CSS Principal
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
